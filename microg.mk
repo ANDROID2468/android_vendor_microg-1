@@ -18,8 +18,8 @@
 LOCAL_PATH := vendor/microg
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/lib64/libjni_keyboarddecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_keyboarddecoder.so \
-    $(LOCAL_PATH)/lib64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
+    $(LOCAL_PATH)/x86_64/libjni_keyboarddecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_keyboarddecoder.so \
+    $(LOCAL_PATH)/x86_64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
     $(LOCAL_PATH)/etc/permissions/features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/features.xml \
     $(LOCAL_PATH)/etc/sysconfig/microg-a5k.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/microg-a5k.xml
 
