@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/x86_64/libjni_keyboarddecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_keyboarddecoder.so \
     $(LOCAL_PATH)/x86_64/libjni_latinimegoogle.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_latinimegoogle.so \
     $(LOCAL_PATH)/etc/permissions/features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/features.xml \
+    $(LOCAL_PATH)/etc/permissions/google-sync-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/google-sync-permissions.xml \
     $(LOCAL_PATH)/etc/sysconfig/microg-a5k.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/microg-a5k.xml
 
 PRODUCT_PACKAGES += \
