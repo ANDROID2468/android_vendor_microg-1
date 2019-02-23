@@ -38,4 +38,8 @@ PRODUCT_PACKAGES += \
     Phonesky \
     com.google.android.maps \
     nlpBackendIchnaea \
-    nlpBackendNominatim
+    nlpBackendNominatim \
+    nlpBackendApple \
+    nlpBackendDejavu \
+    nlpBackendRadiocell \
+    YahooWeatherProvider 
